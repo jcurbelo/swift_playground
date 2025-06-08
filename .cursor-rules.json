@@ -1,0 +1,18 @@
+{
+  "postEdit": [
+    {
+      "command": "swift format .",
+      "description": "Format Swift code after each change."
+    },
+    {
+      "command": "swift build",
+      "description": "Build the project after each change."
+    }
+  ],
+  "runOnRequest": [
+    {
+      "command": "swift run",
+      "description": "Run the project only if asked."
+    }
+  ]
+} 
